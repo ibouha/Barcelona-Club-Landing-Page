@@ -5,9 +5,15 @@
   padding: 0;
 }
 
-body {
+
+body,html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  height: 100%;
+  line-height: 1.6;
+  background-color: #181733;
+  color: white;
+
 }
 
 .hero h1 {
@@ -16,15 +22,9 @@ body {
   font-size: 50px;
 }
 
-section h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
 
-.feature h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
+
+
 
 button {
   font-family: "Poppins", sans-serif;
@@ -88,10 +88,7 @@ button {
   color: #fff;
   text-decoration: none;
 }
-body,
-html {
-  height: 100%;
-}
+
 
 .hero {
   background-image: url("images/wallpaper.jpg");
@@ -135,3 +132,128 @@ html {
   background-color: #ffc800;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
+
+/* styling Discover Barcelona Trophies */
+.discover-trophies{
+    padding: 60px 100px;
+    text-align: center;
+  }
+  
+.discover-trophies h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 107, 255, 1) 14%,
+      rgba(255, 0, 0, 1) 68%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .discover-trophies p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .works{
+    margin-top: 150px;
+  }
+  
+  /* Float-based layout for features */
+  .trophies {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  .imgleft {
+    float: left;
+    width: 30%;
+    max-width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+  .trophie {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .trophie h3 {
+    color: rgba(0, 107, 255, 1);
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .trophie p {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .trophie .cup {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  /* styling features section */
+
+  .top-features {
+    padding: 60px 100px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .top-features h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .features-cards {
+    position: absolute;
+    float: right;
+    overflow: hidden;
+  }
+
+  .card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/FC-BARCELONA-ESPANYOL-82-.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26%;
+    float: left;
+    margin-right: 3.33%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    line-height: 22px;
+    color: #ffd43b;
+  }
+
+
+
+
+
+
