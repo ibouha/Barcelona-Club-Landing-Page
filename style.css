@@ -5,15 +5,14 @@
   padding: 0;
 }
 
-
-body,html {
+body,
+html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   height: 100%;
   line-height: 1.6;
   background-color: #181733;
   color: white;
-
 }
 
 .hero h1 {
@@ -21,10 +20,6 @@ body,html {
   font-weight: 700;
   font-size: 50px;
 }
-
-
-
-
 
 button {
   font-family: "Poppins", sans-serif;
@@ -89,7 +84,6 @@ button {
   text-decoration: none;
 }
 
-
 .hero {
   background-image: url("images/wallpaper.jpg");
   background-size: cover;
@@ -134,126 +128,236 @@ button {
 }
 
 /* styling Discover Barcelona Trophies */
-.discover-trophies{
-    padding: 60px 100px;
-    text-align: center;
-  }
-  
+.discover-trophies {
+  padding: 60px 100px;
+  text-align: center;
+}
+
 .discover-trophies h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(0, 107, 255, 1) 14%,
-      rgba(255, 0, 0, 1) 68%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .discover-trophies p {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 107, 255, 1) 14%,
+    rgba(255, 0, 0, 1) 68%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .works{
-    margin-top: 150px;
-  }
-  
-  /* Float-based layout for features */
-  .trophies {
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 40px 0;
-    position: relative;
-  }
-  
-  .imgleft {
-    float: left;
-    width: 30%;
-    max-width: 320px;
-    height: 450px;
-    border-radius: 10px;
-    margin-left: 30px;
-  }
-  .trophie {
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 30px;
-    width: 30%;
-    text-align: center;
-  }
-  
-  .trophie h3 {
-    color: rgba(0, 107, 255, 1);
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .trophie p {
-    font-size: 14px;
-    color: white;
-  }
-  
-  .trophie .cup {
-    width: 80px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-  }
+.discover-trophies p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
 
-  /* styling features section */
+.works {
+  margin-top: 150px;
+}
 
-  .top-features {
-    padding: 60px 100px;
-    text-align: center;
-    position: relative;
-  }
-  
-  .top-features h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 40px;
-  }
-  
-  .features-cards {
-    position: absolute;
-    float: right;
-    overflow: hidden;
-  }
+/* Float-based layout for features */
+.trophies {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40px 0;
+  position: relative;
+}
 
+.imgleft {
+  float: left;
+  width: 30%;
+  max-width: 320px;
+  height: 450px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.trophie {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.trophie h3 {
+  color: rgba(0, 107, 255, 1);
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.trophie p {
+  font-size: 14px;
+  color: white;
+}
+
+.trophie .cup {
+  width: 80px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* styling features section */
+
+.top-features {
+  padding: 60px 100px;
+  text-align: center;
+  position: relative;
+}
+
+.top-features h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.features-cards {
+  position: absolute;
+  float: right;
+  overflow: hidden;
+}
+
+.card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/FC-BARCELONA-ESPANYOL-82-.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 26%;
+  float: left;
+  margin-right: 3.33%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 22px;
+  color: #ffd43b;
+}
+/* stylying steps */
+.how {
+  margin: 0 auto;
+}
+.step {
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  letter-spacing: 1x;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  line-height: 2;
+  margin-left: 12px;
+}
+.step p {
+  color: #ffc800;
+}
+.step h3 {
+  color: whitesmoke;
+}
+span {
+  margin: 0 20px;
+  color: white;
+}
+/* styling cards */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card {
+  width: 48%;
+  float: left;
+  margin-bottom: 35px;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.card:nth-child(2n) {
+  margin-right: 0;
+}
+
+.profile-pic-container {
+  width: 40%;
+  margin-right: 15px;
+}
+
+.profile-pic {
+  width: 100%;
+  margin-left: 8px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.info {
+  width: 55%;
+}
+
+.info h2 {
+  font-size: 1.5em;
+  color: #ffc800;
+  margin: 0;
+}
+
+.info h3 {
+  font-size: 1.2em;
+  color: #d9534f;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.info p {
+  font-size: 0.9em;
+  color: white;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.info i {
+  font-size: 1.2em;
+  color: #1a2e57;
+  margin-right: 10px;
+}
+
+/* Clearfix for floated elements */
+.cards-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ {
   .card {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/images/FC-BARCELONA-ESPANYOL-82-.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 26%;
-    float: left;
-    margin-right: 3.33%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 1rem;
-    line-height: 22px;
-    color: #ffd43b;
+    width: 100%;
+    flex-direction: column;
   }
 
+  .profile-pic-container,
+  .info {
+    width: 100%;
+    margin: 0;
+  }
 
-
-
-
-
+  .profile-pic {
+    width: 60%;
+    margin: 0 auto 20px auto;
+  }
+}
